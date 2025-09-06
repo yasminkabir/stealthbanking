@@ -1,6 +1,3 @@
-# Stealth Banking 1B
+# Voice of the Customer 2.0: AI-Driven Listening for Strategic Banking Insights
 
-This case study is designed with the objective to build an AI-powered solution that extracts strategic insights from
-public digital conversations about banking products. These could include social media posts, reviews, and forums.
-
-The project emphasizes learning through structured guidance, accessible tools, and real-world relevance.
+Description: In a world where consumers constantly share their experiences online, banks need smarter ways to tune in. This project invites teams to design an AI-driven solution that empowers banks to proactively understand what people are saying about their products, services, and brand - across the digital ecosystem - and convert that into actionable insights. The goal is to create a solution that continuously monitors, interprets, and translates digital conversations into structured intelligence that banks can use to improve customer experiences, develop new offerings, strengthen trust, and assess their public reputation. One approach could be to treat this as a classification problem, though other strategies are possible.
