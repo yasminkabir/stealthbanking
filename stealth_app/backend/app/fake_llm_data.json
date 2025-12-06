@@ -1,0 +1,469 @@
+{
+  "generated_at": "2025-11-10T15:00:00Z",
+  "source": "synthetic_llm_pipeline_v0",
+  "analysis_window": {
+    "start_date": "2025-08-18",
+    "end_date": "2025-11-08",
+    "total_documents": 2450,
+    "filtered_for_banks": 1375
+  },
+  "entity_profiles": [
+    {
+      "bank": "Chase",
+      "share_of_voice": 0.23,
+      "net_sentiment": -0.34,
+      "issue_ratio": 0.68,
+      "top_pain_points": [
+        {
+          "feature": "payments_transfers",
+          "volume": 148,
+          "sample_quote": "ACH transfers are timing out and support said the queue is backed up for Chase business accounts."
+        },
+        {
+          "feature": "login_auth",
+          "volume": 119,
+          "sample_quote": "Face ID keeps asking me to re-enroll every week on the Chase app."
+        }
+      ],
+      "top_requests": [
+        {
+          "feature": "budgeting_analytics",
+          "volume": 86,
+          "sample_quote": "Need richer spending categories that auto-tag business expenses."
+        },
+        {
+          "feature": "cards_controls",
+          "volume": 64,
+          "sample_quote": "Instant virtual card numbers are the most requested feature in the Chase threads this quarter."
+        }
+      ]
+    },
+    {
+      "bank": "Bank of America",
+      "share_of_voice": 0.18,
+      "net_sentiment": -0.41,
+      "issue_ratio": 0.72,
+      "top_pain_points": [
+        {
+          "feature": "security_fraud",
+          "volume": 132,
+          "sample_quote": "Multiple ACATS fraud stories where BoA didn't flag the transfer until the funds were already gone."
+        },
+        {
+          "feature": "customer_service",
+          "volume": 101,
+          "sample_quote": "Hold times over 90 minutes for dispute follow-ups."
+        }
+      ],
+      "top_requests": [
+        {
+          "feature": "notifications",
+          "volume": 77,
+          "sample_quote": "Users keep asking for proactive push alerts before transfers complete."
+        },
+        {
+          "feature": "wallet_integrations",
+          "volume": 55,
+          "sample_quote": "Card provisioning to Apple Pay is still hit or miss for business debit."
+        }
+      ]
+    },
+    {
+      "bank": "Wells Fargo",
+      "share_of_voice": 0.16,
+      "net_sentiment": -0.27,
+      "issue_ratio": 0.61,
+      "top_pain_points": [
+        {
+          "feature": "account_management",
+          "volume": 94,
+          "sample_quote": "Account closure flows require a branch visit even after all checks clear."
+        },
+        {
+          "feature": "payments_transfers",
+          "volume": 72,
+          "sample_quote": "Wire cut-off times aren't surfaced anywhere in-app."
+        }
+      ],
+      "top_requests": [
+        {
+          "feature": "notifications",
+          "volume": 63,
+          "sample_quote": "Want SMS alerts when a wire is initiated, not just after it posts."
+        },
+        {
+          "feature": "ui_ux_accessibility",
+          "volume": 54,
+          "sample_quote": "Dark mode plus large text support is asked for in nearly every weekly roundup."
+        }
+      ]
+    },
+    {
+      "bank": "Chime",
+      "share_of_voice": 0.12,
+      "net_sentiment": -0.18,
+      "issue_ratio": 0.49,
+      "top_pain_points": [
+        {
+          "feature": "security_fraud",
+          "volume": 58,
+          "sample_quote": "Account freezes with no way to escalate beyond email tickets."
+        },
+        {
+          "feature": "support_chat",
+          "volume": 46,
+          "sample_quote": "Live chat disconnects after 5 minutes of inactivity."
+        }
+      ],
+      "top_requests": [
+        {
+          "feature": "cards_controls",
+          "volume": 52,
+          "sample_quote": "Community wants finer card spend limits per merchant category."
+        },
+        {
+          "feature": "payments_transfers",
+          "volume": 39,
+          "sample_quote": "Desire for outbound wires for rent and tuition payments."
+        }
+      ]
+    },
+    {
+      "bank": "Revolut",
+      "share_of_voice": 0.11,
+      "net_sentiment": -0.12,
+      "issue_ratio": 0.43,
+      "top_pain_points": [
+        {
+          "feature": "security_fraud",
+          "volume": 44,
+          "sample_quote": "Travel card being declined in-store even with sufficient funds."
+        },
+        {
+          "feature": "login_auth",
+          "volume": 32,
+          "sample_quote": "Device binding fails if users swap SIM cards abroad."
+        }
+      ],
+      "top_requests": [
+        {
+          "feature": "budgeting_analytics",
+          "volume": 41,
+          "sample_quote": "Desire to export category-level spending into Google Sheets."
+        },
+        {
+          "feature": "wallet_integrations",
+          "volume": 33,
+          "sample_quote": "Samsung Wallet support is top of mind in EU forums."
+        }
+      ]
+    }
+  ],
+  "feature_sentiment": [
+    {
+      "feature": "payments_transfers",
+      "volume": 412,
+      "positive": 84,
+      "negative": 256,
+      "neutral": 72,
+      "net_sentiment": -0.42,
+      "wow_change": -0.09
+    },
+    {
+      "feature": "login_auth",
+      "volume": 305,
+      "positive": 61,
+      "negative": 198,
+      "neutral": 46,
+      "net_sentiment": -0.45,
+      "wow_change": -0.12
+    },
+    {
+      "feature": "security_fraud",
+      "volume": 288,
+      "positive": 43,
+      "negative": 211,
+      "neutral": 34,
+      "net_sentiment": -0.52,
+      "wow_change": -0.18
+    },
+    {
+      "feature": "budgeting_analytics",
+      "volume": 214,
+      "positive": 131,
+      "negative": 52,
+      "neutral": 31,
+      "net_sentiment": 0.26,
+      "wow_change": 0.07
+    },
+    {
+      "feature": "cards_controls",
+      "volume": 197,
+      "positive": 98,
+      "negative": 63,
+      "neutral": 36,
+      "net_sentiment": 0.08,
+      "wow_change": 0.04
+    },
+    {
+      "feature": "notifications",
+      "volume": 168,
+      "positive": 55,
+      "negative": 89,
+      "neutral": 24,
+      "net_sentiment": -0.2,
+      "wow_change": -0.05
+    },
+    {
+      "feature": "ui_ux_accessibility",
+      "volume": 151,
+      "positive": 79,
+      "negative": 48,
+      "neutral": 24,
+      "net_sentiment": 0.11,
+      "wow_change": 0.02
+    }
+  ],
+  "emerging_topics": [
+    {
+      "label": "instant_card_freeze",
+      "description": "Demand for real-time card freeze/unfreeze flows across major US banks.",
+      "three_week_delta": 0.34,
+      "volume": 138,
+      "leading_banks": [
+        "Chase",
+        "Bank of America",
+        "Chime"
+      ]
+    },
+    {
+      "label": "alerts_before_transfers",
+      "description": "Customers want pre-transfer verification messages to stop ACATS and wire fraud.",
+      "three_week_delta": 0.29,
+      "volume": 121,
+      "leading_banks": [
+        "Bank of America",
+        "Wells Fargo"
+      ]
+    },
+    {
+      "label": "ai_budget_coach",
+      "description": "Interest in in-app AI assistants that summarize spend and recommend savings moves.",
+      "three_week_delta": 0.22,
+      "volume": 97,
+      "leading_banks": [
+        "Chase",
+        "Revolut",
+        "SoFi"
+      ]
+    }
+  ],
+  "product_demand": {
+    "top_requested_products": [
+      {
+        "product": "Instant Card Freeze",
+        "feature_tag": "cards_controls",
+        "mentions": 182,
+        "wow_change": 0.27,
+        "average_sentiment": -0.12
+      },
+      {
+        "product": "Proactive Fraud Alerts",
+        "feature_tag": "notifications",
+        "mentions": 165,
+        "wow_change": 0.31,
+        "average_sentiment": -0.18
+      },
+      {
+        "product": "AI Spending Coach",
+        "feature_tag": "budgeting_analytics",
+        "mentions": 142,
+        "wow_change": 0.44,
+        "average_sentiment": 0.22
+      },
+      {
+        "product": "SafePay Vendor Lock",
+        "feature_tag": "payments_transfers",
+        "mentions": 134,
+        "wow_change": 0.19,
+        "average_sentiment": -0.05
+      },
+      {
+        "product": "Custom Card Spend Caps",
+        "feature_tag": "cards_controls",
+        "mentions": 118,
+        "wow_change": 0.14,
+        "average_sentiment": 0.04
+      }
+    ],
+    "top_recent_improvements": [
+      {
+        "product": "Zelle Timeline Tracker",
+        "bank": "Chase",
+        "mentions": 97,
+        "wow_change": 0.38,
+        "average_sentiment": 0.25
+      },
+      {
+        "product": "Revolut Workspace Budgets",
+        "bank": "Revolut",
+        "mentions": 86,
+        "wow_change": 0.41,
+        "average_sentiment": 0.33
+      },
+      {
+        "product": "Chime SpotMe Boost Limits",
+        "bank": "Chime",
+        "mentions": 74,
+        "wow_change": 0.29,
+        "average_sentiment": 0.18
+      },
+      {
+        "product": "Bank of America Wire Callback Team",
+        "bank": "Bank of America",
+        "mentions": 63,
+        "wow_change": 0.21,
+        "average_sentiment": 0.11
+      },
+      {
+        "product": "Wells Fargo Card Travel Mode",
+        "bank": "Wells Fargo",
+        "mentions": 58,
+        "wow_change": 0.17,
+        "average_sentiment": 0.06
+      }
+    ],
+    "trend_weeks": [
+      {
+        "week": "2025-08-25",
+        "instant_card_freeze": 42,
+        "proactive_fraud_alerts": 37,
+        "ai_spending_coach": 19,
+        "safe_pay_vendor_lock": 24,
+        "custom_card_spend_caps": 17
+      },
+      {
+        "week": "2025-09-01",
+        "instant_card_freeze": 47,
+        "proactive_fraud_alerts": 41,
+        "ai_spending_coach": 26,
+        "safe_pay_vendor_lock": 29,
+        "custom_card_spend_caps": 21
+      },
+      {
+        "week": "2025-09-08",
+        "instant_card_freeze": 51,
+        "proactive_fraud_alerts": 46,
+        "ai_spending_coach": 33,
+        "safe_pay_vendor_lock": 31,
+        "custom_card_spend_caps": 24
+      },
+      {
+        "week": "2025-09-15",
+        "instant_card_freeze": 58,
+        "proactive_fraud_alerts": 53,
+        "ai_spending_coach": 39,
+        "safe_pay_vendor_lock": 35,
+        "custom_card_spend_caps": 28
+      },
+      {
+        "week": "2025-09-22",
+        "instant_card_freeze": 62,
+        "proactive_fraud_alerts": 57,
+        "ai_spending_coach": 44,
+        "safe_pay_vendor_lock": 37,
+        "custom_card_spend_caps": 32
+      },
+      {
+        "week": "2025-09-29",
+        "instant_card_freeze": 67,
+        "proactive_fraud_alerts": 63,
+        "ai_spending_coach": 51,
+        "safe_pay_vendor_lock": 42,
+        "custom_card_spend_caps": 36
+      },
+      {
+        "week": "2025-10-06",
+        "instant_card_freeze": 74,
+        "proactive_fraud_alerts": 71,
+        "ai_spending_coach": 59,
+        "safe_pay_vendor_lock": 47,
+        "custom_card_spend_caps": 41
+      },
+      {
+        "week": "2025-10-13",
+        "instant_card_freeze": 81,
+        "proactive_fraud_alerts": 79,
+        "ai_spending_coach": 66,
+        "safe_pay_vendor_lock": 53,
+        "custom_card_spend_caps": 47
+      },
+      {
+        "week": "2025-10-20",
+        "instant_card_freeze": 87,
+        "proactive_fraud_alerts": 84,
+        "ai_spending_coach": 72,
+        "safe_pay_vendor_lock": 58,
+        "custom_card_spend_caps": 52
+      },
+      {
+        "week": "2025-10-27",
+        "instant_card_freeze": 93,
+        "proactive_fraud_alerts": 90,
+        "ai_spending_coach": 79,
+        "safe_pay_vendor_lock": 63,
+        "custom_card_spend_caps": 57
+      },
+      {
+        "week": "2025-11-03",
+        "instant_card_freeze": 98,
+        "proactive_fraud_alerts": 95,
+        "ai_spending_coach": 85,
+        "safe_pay_vendor_lock": 68,
+        "custom_card_spend_caps": 61
+      }
+    ]
+  },
+  "persona_breakdowns": [
+    {
+      "persona": "Financial Coach",
+      "share_of_voice": 0.21,
+      "top_needs": [
+        "Better multi-account budgeting overviews",
+        "Alerts for unusual recurring spend increases",
+        "Export-ready executive summaries"
+      ]
+    },
+    {
+      "persona": "Operations Lead",
+      "share_of_voice": 0.18,
+      "top_needs": [
+        "Bulk card freeze management for small business fleets",
+        "Audit trails for fraud escalations",
+        "Predictive alerts for payroll issues"
+      ]
+    },
+    {
+      "persona": "Customer Support Agent",
+      "share_of_voice": 0.16,
+      "top_needs": [
+        "Faster dispute resolution macros",
+        "Guided scripts for ACATS fraud",
+        "Knowledge base surfacing common login issues"
+      ]
+    }
+  ],
+  "top_requests_list": [
+    "Instant Card Freeze / Unfreeze from transaction details",
+    "Proactive Fraud Alerts before high-risk transfers complete",
+    "AI Spending Coach with weekly saving nudges",
+    "SafePay Vendor Lock to restrict payouts to trusted accounts",
+    "Custom Card Spend Caps by merchant category",
+    "Better Wire Transfer status visibility and callbacks",
+    "In-app dispute center with guided evidence upload",
+    "Dark Mode with large-type accessibility controls",
+    "Card provisioning reliability across Apple, Google, and Samsung wallets",
+    "Real-time account opening status tracker for new customers"
+  ]
+}
+

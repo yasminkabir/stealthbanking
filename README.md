@@ -1,3 +1,16 @@
 # Voice of the Customer 2.0: AI-Driven Listening for Strategic Banking Insights
 
 Description: In a world where consumers constantly share their experiences online, banks need smarter ways to tune in. This project invites teams to design an AI-driven solution that empowers banks to proactively understand what people are saying about their products, services, and brand - across the digital ecosystem - and convert that into actionable insights. The goal is to create a solution that continuously monitors, interprets, and translates digital conversations into structured intelligence that banks can use to improve customer experiences, develop new offerings, strengthen trust, and assess their public reputation. One approach could be to treat this as a classification problem, though other strategies are possible.
+
+## Design Focus
+
+This app is designed with a modern, user-friendly interface inspired by Figma prototypes. It uses custom fonts and scalable vector graphics to ensure a polished and professional look.
+
+### Setup Instructions
+
+1. Add your custom assets:
+   - Place SVG files in the `assets/` directory.
+   - Update the `pubspec.yaml` file to include the assets.
+
+2. Install dependencies:
+   
