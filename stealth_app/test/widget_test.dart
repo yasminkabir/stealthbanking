@@ -14,7 +14,7 @@ void main() {
   testWidgets('renders Voice of the Customer shell', (WidgetTester tester) async {
     await tester.pumpWidget(const VocApp());
 
-    expect(find.text('VOICE OF THE CUSTOMER 2.0'), findsWidgets);
+    expect(find.text('VOICE OF THE CUSTOMER'), findsWidgets);
     expect(find.byType(NavigationBar), findsOneWidget);
   });
 }

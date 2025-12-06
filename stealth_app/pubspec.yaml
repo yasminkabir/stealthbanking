@@ -1,5 +1,5 @@
 name: stealth_app
-description: Hard-coded VOC 2.0 demo with bottom navigation only
+description: Hard-coded VOC demo with bottom navigation only
 publish_to: "none"
 
 environment:

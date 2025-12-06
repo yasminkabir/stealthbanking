@@ -17,7 +17,7 @@ class VocApp extends StatelessWidget {
     const seed = Color(0xFF2E3A8C); // deep indigo/blue
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Voice of the Customer 2.0',
+      title: 'Voice of the Customer',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: seed),
         useMaterial3: true,
@@ -600,7 +600,7 @@ class _ResultsPageState extends State<ResultsPage> {
             padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
             children: [
               Text(
-                'VOICE OF THE CUSTOMER 2.0',
+                'VOICE OF THE CUSTOMER',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w700,
