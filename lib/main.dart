@@ -94,7 +94,7 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 28),
           Text(
-            'VOICE OF THE CUSTOMER 2.0',
+            'VOICE OF THE CUSTOMER',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: cs.primary,
@@ -360,7 +360,7 @@ class _ChatPageState extends State<ChatPage> {
             child: Row(
               children: [
                 Expanded(
-                  child: Text('VOICE OF THE CUSTOMER 2.0',
+                  child: Text('VOICE OF THE CUSTOMER',
                       style: TextStyle(
                         fontWeight: FontWeight.w700,
                         fontSize: 18,
