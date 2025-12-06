@@ -1,16 +1,16 @@
-# Voice of the Customer 2.0: AI-Driven Listening for Strategic Banking Insights
+# stealth_app
 
-Description: In a world where consumers constantly share their experiences online, banks need smarter ways to tune in. This project invites teams to design an AI-driven solution that empowers banks to proactively understand what people are saying about their products, services, and brand - across the digital ecosystem - and convert that into actionable insights. The goal is to create a solution that continuously monitors, interprets, and translates digital conversations into structured intelligence that banks can use to improve customer experiences, develop new offerings, strengthen trust, and assess their public reputation. One approach could be to treat this as a classification problem, though other strategies are possible.
+A new Flutter project.
 
-## Design Focus
+## Getting Started
 
-This app is designed with a modern, user-friendly interface inspired by Figma prototypes. It uses custom fonts and scalable vector graphics to ensure a polished and professional look.
+This project is a starting point for a Flutter application.
 
-### Setup Instructions
+A few resources to get you started if this is your first Flutter project:
 
-1. Add your custom assets:
-   - Place SVG files in the `assets/` directory.
-   - Update the `pubspec.yaml` file to include the assets.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-2. Install dependencies:
-   
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-asyncpraw
-rapidfuzz
-python-dotenv
-openai
-supabase
-
