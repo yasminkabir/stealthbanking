@@ -1,0 +1,8 @@
+{
+  "name": "voice-of-customer",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "./build.sh"
+  }
+}
+
