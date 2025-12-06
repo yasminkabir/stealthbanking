@@ -1,3 +1,8 @@
+# Environment variables (sensitive)
+.env
+.env.local
+.env.*.local
+
 # Miscellaneous
 *.class
 *.log
