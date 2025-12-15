@@ -22,6 +22,7 @@ In a world where consumers constantly share their experiences online, banks need
 
 ## 🎯 Project Highlights
 
+- Built an end-to-end, cross-platform banking insights application featuring an AI-powered chat interface, real-time customer trend analysis, and interactive data visualizations.
 - Utilized **GitHub** and **Google Colab** for collaborative code development, version control, and model experimentation.
 - Used **Figma** and **Notion** to support product design, documentation, and project management workflows.
 - Built the technical pipeline using **Python, Flutter, AWS, and Hugging Face** to support machine learning development, application integration, and deployment considerations.
