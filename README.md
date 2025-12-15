@@ -31,8 +31,6 @@ In a world where consumers constantly share their experiences online, banks need
 - Implemented **train–validation splitting, class balancing, and iterative model evaluation** to address real-world data imbalance and model performance constraints.
 ---
 
----
-
 ## 🌎 **Project Overview**
 
 This project was developed as part of the **Break Through Tech AI Program – AI Studio.**
@@ -42,8 +40,6 @@ This project was developed as part of the **Break Through Tech AI Program – AI
 
 #### Real-World Significance
 Banks receive vast amounts of unstructured feedback across digital platforms, making it difficult to extract actionable insights manually. This project demonstrates how machine learning can be used to systematically analyze customer sentiment and themes at scale, supporting improved decision-making and customer-centric product development.
-
----
 
 ---
 ## ⭐️ Features
