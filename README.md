@@ -15,7 +15,7 @@ In a world where consumers constantly share their experiences online, banks need
 | Enzo Weiss | @enzoweiss21 | App development; Data collection |
 | Louisa Anjanette Auwlia | @anjanetttee | Product owner (PO); ML testing |
 | Yasmin Kabir | @yasminkabir | ML model training and evaluation |
-| Minakshi Thapa | @safalta1 | Data collection | ML Training & Testing 
+| Minakshi Thapa | @safalta1 | Data collection; ML Training & Testing 
 | Sharika Khaton | @skhaton | ML testing |
 
 ---
